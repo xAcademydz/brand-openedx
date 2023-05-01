@@ -1,10 +1,25 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-.site-header-desktop,
-.learning-header {
+.site-header-desktop {
+
     background: #130a48 !important;
 }
 
+.site-header-desktop .main-nav .nav-link {
+    color: white !important;
+}
+
+
+.btn-outline-primary {
+    color: #fff !important;
+    border: 3px solid #fff;
+}
+
+.btn-outline-primary:hover {
+    color: #130a48 !important;
+    border: 3px solid #130a48;
+}
+
 .footer {
-    background: #130a48 !important;
+    background-color: #130a48 !important;
 }
